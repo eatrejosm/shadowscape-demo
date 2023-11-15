@@ -4,9 +4,12 @@ you can create, edit and delete task
 
 ## DB set up
 
-use postgres
-set username and password in env file
-create a database named task
+in the root folder of project
+```
+docker compose run
+```
+
+config env file of backend
 ```
 DATABASE_USER=postgres
 DATABASE_PASS=postgres

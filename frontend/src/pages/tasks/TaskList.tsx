@@ -78,7 +78,7 @@ export default function TaskList() {
 						Log out
 					</Button>
 					<Box>
-						{tasks.map((task, index) => (
+						{tasks && tasks.map((task, index) => (
 							<TaskItem task={task} key={index} onDelete={onDelete} />
 						))}
 					</Box>
