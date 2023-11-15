@@ -81,7 +81,7 @@ export default function Task() {
 				<CssBaseline />
 				<Container component="main" sx={{mt: 8, mb: 2}} maxWidth="sm">
 					<Typography variant="h2" component="h1">
-						Create Task
+						{editMode? 'Edit Task':'Create Task'}
 					</Typography>
 					<Button
 						onClick={() => {
